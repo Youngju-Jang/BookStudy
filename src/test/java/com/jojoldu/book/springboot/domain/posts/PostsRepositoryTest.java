@@ -28,11 +28,12 @@ public class PostsRepositoryTest {
         String title = "테스트 게시글";
         String content = "테스트 본문";
 
-        postsRepository.save(Posts.builder()
-                .title(title)
-                .content(content)
-                .author("joj1043@nate.com")
-                .build());
+        postsRepository.save(
+                Posts.builder()
+                        .title(title)
+                        .content(content)
+                        .author("joj10")
+                        .build());
 
         List<Posts> postsList = postsRepository.findAll();
 

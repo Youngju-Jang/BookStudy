@@ -10,14 +10,14 @@ import javax.persistence.*;
 
 @Getter
 @NoArgsConstructor
-@Entity
+@Entity // jpa 어노테이션
 public class Posts extends BaseTimeEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id // 테이블의 pk필드
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // pk생성규칙, auto-increment
     private Long id;
 
-    @Column(length = 500, nullable = false)
+    @Column(length = 500, nullable = false) //default 255
     private String title;
 
     @Column(columnDefinition = "TEXT", nullable = false)
