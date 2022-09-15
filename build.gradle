@@ -31,6 +31,7 @@ dependencies {
     implementation 'org.springframework.session:spring-session-jdbc'
     implementation 'junit:junit:4.13.1'
 
+    compileOnly 'org.mariadb.jdbc:mariadb-java-client' // mariadb
     annotationProcessor 'org.projectlombok:lombok'
     compileOnly 'org.projectlombok:lombok'
 
