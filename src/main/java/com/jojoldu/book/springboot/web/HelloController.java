@@ -1,7 +1,7 @@
 package com.jojoldu.book.springboot.web;
 
 import com.jojoldu.book.springboot.web.dto.HelloResponseDto;
-import org.springframework.security.web.authentication.logout.HeaderWriterLogoutHandler;
+//import org.springframework.security.web.authentication.logout.HeaderWriterLogoutHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
