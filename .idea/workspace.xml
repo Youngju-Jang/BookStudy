@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b539349-c70a-47fe-ab40-e2102b6f96b2" name="변경" comment="자바설정변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-real.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-real.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <recent name="com.jojoldu.book.springboot.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Application">
+  <component name="RunManager" selected="JUnit.HelloControllerTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.Application" />
       <module name="BookStudy.main" />
@@ -196,8 +196,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Application" />
         <item itemvalue="JUnit.HelloControllerTest" />
+        <item itemvalue="애플리케이션.Application" />
         <item itemvalue="JUnit.PostsApiControllerTest" />
         <item itemvalue="Gradle.BookStudy [test]" />
         <item itemvalue="JUnit.IndexControllerTest" />
